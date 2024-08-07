@@ -186,13 +186,13 @@ body {
     padding-top: 40px;
 }
 
-.second-page h2 {
+.info h3 {
     font-weight: bold;
     font-size: 50px;
     width: 639;
 }
 
-.second-page p{
+.info p{
     font-size: 20px;
 }
 
@@ -285,5 +285,31 @@ body {
     font-size: 20px;
     margin-left: 30px;
     width: 550px;
+}
+
+.third-page {
+    background-color: #BAE2FF;
+}
+
+.section-info-3 {
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section-info-3 img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.section-info-3 h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.section-info-3 p{
+    color: #000000;
 }
 
