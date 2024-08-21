@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Mena Grotesk;
 }
 
 body {
@@ -177,7 +178,7 @@ body {
 }
 
 .second-page {
-    background-color: #9acdf1;
+    background-color: #BAE2FF;
     color: #000000;
 }
 
@@ -289,27 +290,109 @@ body {
 
 .third-page {
     background-color: #BAE2FF;
+    padding: 20px;
+}
+
+.third-page .info h3{
+    margin-bottom: 10px;
+}
+
+.third-page .info p{
+    margin-bottom: 10px;
 }
 
 .section-info-3 {
      display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    align-items: center;
+    gap: 0px;
+    padding: 10px;
+    margin-left: 80px;
 }
 
 .section-info-3 img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+    width: 70%;
+    height: 276;
 }
 
 .section-info-3 h3{
     font-size: 25px;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 .section-info-3 p{
     color: #000000;
+    margin-bottom: 15px;
+}
+
+
+.fourth-page .info h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.fourth-page .info p{
+    margin-bottom: 20px;
+}
+
+.section-info-4{
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    column-gap: 20rem;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.tag-9 img, .tag-10 img, .tag-11 img{
+    height: 400px;
+    width: 300px;
+}
+
+.testimonial h3{
+    text-align: center;
+    font-size: 36px;
+    color: 000000;
+    margin-bottom: 15px;
+}
+
+
+
+.fourth-page{
+    background-color: #BAE2FF;
+    padding: 20px;
+}
+
+.footer .info {
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+.footer p{
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+.footer button{
+    margin-left: 400px;
+    width: 194px;
+    height: 58px;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer-1 img{
+    width: 100%;
+    height: 740px;
+}
+
+.footer-2 {
+    display: grid;
+    grid-template-columns: 50rem auto auto auto;
+    gap: 5rem;
 }
 
