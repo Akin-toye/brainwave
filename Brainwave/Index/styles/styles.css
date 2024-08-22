@@ -358,16 +358,19 @@ body {
     margin-bottom: 15px;
 }
 
-
-
 .fourth-page{
     background-color: #BAE2FF;
     padding: 20px;
 }
 
+.footer {
+    margin-top: -30px;
+}
+
 .footer .info {
-    margin-bottom: 10px;
-    font-size: 70px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    /* add width to contain the design */
 }
 
 .footer p{
@@ -387,12 +390,33 @@ body {
 
 .footer-1 img{
     width: 100%;
-    height: 740px;
+    height: 600px;
 }
 
 .footer-2 {
     display: grid;
-    grid-template-columns: 50rem auto auto auto;
-    gap: 5rem;
+    grid-template-columns: 10rem 50rem 10rem 10rem 10rem;
 }
+
+.footer-2 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.tag-12 {
+    margin-top: 600px;
+}
+
+.tag-14 {
+    margin-top: 600px;
+}
+
+.tag-15 {
+    margin-top: 600px;
+}
+
+.tag-16 {
+    margin-top: 600px;
+}
+
 
